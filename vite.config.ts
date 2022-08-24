@@ -36,6 +36,7 @@ export default defineConfig(({ command }) => {
         input: {
           popup: r('src/popup/index.html'),
           options: r('src/options/index.html'),
+          override: r('src/override/index.html'),
         },
       },
     },

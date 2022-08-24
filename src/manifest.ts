@@ -21,6 +21,9 @@ export async function getManifest(): Promise<Manifest.WebExtensionManifest> {
     background: {
       service_worker: 'background.js',
     },
+    chrome_url_overrides: {
+      newtab: './override/index.html',
+    },
     content_scripts: [
       {
         matches: ['http://*/*', 'https://*/*'],

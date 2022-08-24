@@ -7,6 +7,10 @@ popup:
   desc: This is the popup page
   open_options: Open Options
   storage: Storage
+override:
+  desc: This is the override page
+  open_options: Open Options
+  storage: Storage
 options:
   desc: This is the options page
   sync_storage: Sync Storage Message
